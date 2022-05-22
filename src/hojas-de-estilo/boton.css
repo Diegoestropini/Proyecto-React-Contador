@@ -1,0 +1,31 @@
+/*agrandar boton*/
+.boton {
+  width: 250px;
+  height: 100px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  
+}
+
+.boton-de-clic {
+  background-color: aqua;
+
+}
+
+.boton-de-reiniciar {
+  background-color : #ff9900;
+
+}
+
+.boton:hover {
+  background-color: green;
+}
