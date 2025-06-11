@@ -8,10 +8,10 @@ import React, {useState} from 'react';
 
 function App() {
 
-  const [NumClics, setNumClics] = useState(0);
+  const [numClics, setNumClics] = useState(0);
 
 const onClick = () => {
-  setNumClics(NumClics + 1);
+  setNumClics(numClics + 1);
 }
 
 
@@ -28,7 +28,7 @@ const reiniciarClick = () => {
         alt="imagen de logo"/>
                 </div>
 
-      <Contador NumClics={NumClics}/>
+      <Contador numClics={numClics}/>
 
 
         <Boton texto="click me" 

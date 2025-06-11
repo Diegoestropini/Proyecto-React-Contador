@@ -2,11 +2,11 @@ import React from "react";
 import "../hojas-de-estilo/contador.css";
 
 
-function Contador( {NumClics } ) {
+function Contador( { numClics } ) {
     return (
         <div className="contador">
 
-            {NumClics}
+            {numClics}
         </div>
     );
 }
